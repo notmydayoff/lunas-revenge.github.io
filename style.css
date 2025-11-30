@@ -1,1 +1,205 @@
+/* Clean, minimal, earthy Balanced Bodies style.css */
+
+:root {
+  --earth-light: #f5f4ef;
+  --earth-mid: #d9d7cf;
+  --earth-dark: #3a3a38;
+  --accent: #556b5a;
+  --accent-light: #7f9485;
+  --text-dark: #1a1a1a;
+  --text-muted: #555;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #fff;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+  border-bottom: 1px solid var(--earth-mid);
+}
+.logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.menu-btn {
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+}
+
+/* Hero Section */
+.hero {
+  padding: 2.4rem 1.2rem;
+  max-width: 650px;
+  margin: auto;
+}
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+.hero p {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+.btn {
+  padding: 0.8rem 1.4rem;
+  background: var(--accent);
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+/* Hero Image */
+.hero-image img {
+  width: 100%;
+  display: block;
+  margin: 1.4rem 0;
+  border-radius: 8px;
+}
+
+/* About Section */
+.about {
+  background: var(--earth-light);
+  padding: 2.2rem 1.2rem;
+}
+.about-img img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.about h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+.about-text p {
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+}
+.about-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+.about-icons .icon {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Services */
+.services {
+  padding: 2.5rem 1.2rem;
+}
+.services h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.service-card {
+  margin-bottom: 2rem;
+}
+.service-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+}
+.service-card h3 {
+  margin-bottom: 0.4rem;
+}
+
+/* Habit Section */
+.habit {
+  background: var(--earth-light);
+  padding: 2.5rem 1.2rem;
+}
+.habit h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.habit p {
+  color: var(--text-muted);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.habit-list {
+  list-style: none;
+  max-width: 450px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  margin-bottom: 1.4rem;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 2.5rem 1.2rem;
+}
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+.testimonial {
+  max-width: 650px;
+  margin: auto;
+  background: var(--earth-light);
+  padding: 1.4rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.stars {
+  color: gold;
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Progress */
+.progress {
+  padding: 2.2rem 1.2rem;
+  text-align: center;
+}
+
+/* Pricing */
+.pricing {
+  background: var(--earth-light);
+  padding: 2.5rem 1.2rem;
+}
+.pricing h2 {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.pricing-options {
+  max-width: 500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  margin-bottom: 1.4rem;
+  gap: 0.4rem;
+}
+.price-box {
+  background: white;
+  max-width: 400px;
+  margin: auto;
+  padding: 1.6rem;
+  border-radius: 8px;
+  text-align: center;
+}
+.price-box h3 {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
 
